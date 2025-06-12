@@ -95,7 +95,7 @@ $$y_{z_{k}} = {xl}_{k}\ \ \ \ \forall k$$
 
 Muslim user must be assigned to a Halal restaurant.
 
-$${rh}_{x_{k}} \geq {kh}_{k}\ \ \ \ \forall k$$
+$${rh}_{x_{k}} \geq {kh}_{k} \quad \forall k$$
 
 **4. Time Feasibility**
 
