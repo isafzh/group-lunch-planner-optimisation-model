@@ -79,15 +79,13 @@ $$max\lbrack\frac{1}{K}(w_{p}\sum_{k = 1}^{K}P_{k,x_{k}} + w_{s}\sum_{k = 1}^{K}
 
 **1. Restaurant-Location Consistency**
 
-Ensure that the location of user k's assigned restaurant corresponds to
-their assigned location.
+Ensure that the location of user k's assigned restaurant corresponds to their assigned location.
 
 $$L_{x_{k}} = {xl}_{k}\ \ \ \ \forall k$$
 
 **2. Group-Location Consistency**
 
-Ensure that the location assigned to user k's group g matches the
-location assigned to user k.
+Ensure that the location assigned to user k's group g matches the location assigned to user k.
 
 $$y_{z_{k}} = {xl}_{k}\ \ \ \ \forall k$$
 
@@ -95,28 +93,23 @@ $$y_{z_{k}} = {xl}_{k}\ \ \ \ \forall k$$
 
 Muslim user must be assigned to a Halal restaurant.
 
-$$
-{rh}_{x_{k}} \geq {kh}_{k}\ \ \ \ \forall k
-$$
+$${rh}_{x_{k}} \geq {kh}_{k}\ \ \ \ \forall k$$
 
 **4. Time Feasibility**
 
-Each user must individually satisfy the time constraint: start time +
-round-trip travel time + eating time $\leq$ end time.
+Each user must individually satisfy the time constraint: start time + round-trip travel time + eating time $\leq$ end time.
 
 $${tx}_{k}^{s} + et + {rt}_{x_{k}} \leq {tx}_{k}^{e}\ \ \ \ \forall k$$
 
 **5. Group Synchronisation**
 
-Each user's start time must match the start time of their assigned
-group.
+Each user's start time must match the start time of their assigned group.
 
 $${tx}_{k}^{s} = {ty}_{z_{k}}^{s}\ \ \ \ \forall k$$
 
 **6. Cost Constraint**
 
-The combined cost of the current day (today) and all history days must
-not exceed the maximum allowed average.
+The combined cost of the current day (today) and all history days must not exceed the maximum allowed average.
 
 $$c_{k} + c_{x_{k}} \leq (1 + hd) \times C_{\max}\ \ \ \ \forall k$$
 
