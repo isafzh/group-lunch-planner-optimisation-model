@@ -91,21 +91,26 @@ $$y_{z_{k}} = {xl}_{k}\ \ \ \ \forall k$$
 
 **3. Dietary Requirement**
 
-Muslim user must be assigned to a Halal restaurant.
-
-$${rh}_{x_{k}} \geq {kh}_{k}\ \ \ \ \forall k$$
+Muslim user must be assigned to a Halal restaurant.  
+$$
+rh_{x_k} \geq kh_k \quad \forall k
+$$
 
 **4. Time Feasibility**
 
 Each user must individually satisfy the time constraint: start time + round-trip travel time + eating time $\leq$ end time.
 
-$${tx}_{k}^{s} + et + {rt}_{x_{k}} \leq {tx}_{k}^{e}\ \ \ \ \forall k$$
+$$
+tx_k^s + et + rt_{x_k} \leq tx_k^e \quad \forall k
+$$
 
 **5. Group Synchronisation**
 
 Each user's start time must match the start time of their assigned group.
 
-$${tx}_{k}^{s} = {ty}_{z_{k}}^{s}\ \ \ \ \forall k$$
+$$
+tx_k^s = ty_{z_k}^s \quad \forall k
+$$
 
 **6. Cost Constraint**
 
