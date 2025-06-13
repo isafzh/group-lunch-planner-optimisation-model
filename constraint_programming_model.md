@@ -92,6 +92,7 @@ $$y_{z_{k}} = {xl}_{k}\ \ \ \ \forall k$$
 **3. Dietary Requirement**
 
 Muslim user must be assigned to a Halal restaurant.  
+
 $$
 rh_{x_k} \geq kh_k \quad \forall k
 $$
