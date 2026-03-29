@@ -1,4 +1,4 @@
-# Group Lunch Planner – Constraint Programming Model
+# Group Recommendation – Constraint Programming Model
 
 
 _Author: Fu Zhenhui_  
