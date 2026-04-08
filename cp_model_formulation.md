@@ -2,7 +2,7 @@
 
 
 _Author: Fu Zhenhui_  
-_Last Updated: June 2024_
+_Last Updated: March 2024_
 
 
 A constraint programming (CP) formulation of the group recommendation optimisation model, illustrated through a group lunch planning scenario. The formulation incorporates user preferences, group incentives, dietary requirements, and time/cost considerations.
